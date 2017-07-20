@@ -6,14 +6,14 @@ Special thanks to [Yohan](https://twitter.com/apnylle) and [Ola](https://twitter
 
 Prerequisite
 ============
-You have a working Kubernetes 1.5 cluster. You can try [Minikube](https://github.com/kubernetes/minikube), or [Google Container Engine](https://cloud.google.com/container-engine/) for multi-node deployment.
+You have a working Kubernetes 1.5+ cluster. You can try [Minikube](https://github.com/kubernetes/minikube), or [Google Container Engine](https://cloud.google.com/container-engine/) for multi-node deployment.
 
 Installation
 ============
 1. Deploy the seed nodes: `kubectl apply -f kubernetes/akka-seed.yaml`
 1. Deploy the worker nodes: `kubectll apply -f kubernetes/akka-workers.yaml`
 
-Or, deploy everything in one shot: `kubectl apply -f kubernetes/
+Or, deploy everything in one shot: `kubectl apply -f kubernetes/`
 
 Example Usage
 =============
